@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  background-image: url("paper.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+}
+.header {
+background-color: #FCF6F0;
+padding:5px;
+text-align: center;
+border: 5px double blue;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FCF6F0;
+  position: static;
+  top: 10px;
+  width: 100%;
+}
+li {
+  float: left;
+  border-right: 1px solid blue;
+}
+li:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active){
+  background-color: yellow;
+}
+.active {
+  background-color: yellow;
+}
+h1 {
+  color: red;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 {
+  color: blue;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4 {
+  color: black;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo {
+margin-left: 15px;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.container div {
+ width: 100px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;  
+}
+.about {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+.about div {
+ width: 300px;
+  text-align: center;  
+}
+.practice {
+    text-align: center;
+}
+.face {
+  float: right;
+}
+.stuff {
+  margin: auto;
+  width: 80%;
+  padding: 0px;
+  }
+.pop {
+  float: none;
+  font-family: 'Baskerville', Georgia, serif;
+  border-right: none;
+}
